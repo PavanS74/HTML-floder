@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>HTML TABLE</title>
+        <style>
+            table, td, th{
+                border: 2px;
+                border-color: brown;
+                border-style: solid;
+                
+
+                border: 2px solid rgb(141, 6, 6);
+                padding: 20px;
+                border-collapse: collapse;
+
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <table border="2">
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">seminar</th>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+            <tr>
+               <td rowspan="2">monday</td> 
+               <td rowspan="2">8:00am</td> 
+               <td rowspan="2">5:00pm</td>
+               <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity DTD and RElax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00am</td>
+                <td>11:00amm</td>
+                <td rowspan="2">Xpath</td>
+            </tr>
+            <tr>
+                <td>11:00am</td>
+                <td>2:00pm</td>
+            </tr>
+            <tr>
+                <td>2:00pm</td>
+                <td>5:00pm</td>
+                <td rowspan="1.5">xsl formations</td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>8:00am</td>
+                <td>12:00pm</td>
+                <td>XSL Formating Objects</td>
+            </tr>
+
+        </table>
+        
+    </body>
+</html>

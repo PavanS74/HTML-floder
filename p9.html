@@ -1,0 +1,32 @@
+<html>
+    <head>Marquee tag</head>
+    <br>
+        
+        <h1>Marquee tag..!</h1>
+        <marquee behavior="alternative" direction="" bgcolor="skyblue"><a href="www.Google.com">Google website</a></marquee>
+        <br></br>
+
+        <marquee behavior="scroll" direction="" bgcolor="green">this 2 scroll</marquee>
+        <br></br>
+        <marquee behavior="slide" direction="right" bgcolor="skyblue">this is slide</marquee>
+        <br></br>
+        <marquee behavior="slide" direction="down" bgcolor="skyblue" height="100">this is slide</marquee>
+        <br></br>
+        <marquee behavior="scroll" direction="" bgcolor="skyblue" scrollamount="50">this 2 scroll</marquee>
+        <br></br>
+        <marquee bgcolor ="green" behavior="" direction="" onmouseenter="stopScroll();" onmouseleave="startScroll();" id ="atm">this is  a marquee tag..!</marquee>
+        <script>
+            function stopScroll(){
+                let marquee=document.getElementById("atm").stop();
+            }
+            function startScroll(){
+                let marquee=document.getElementById("atm").start();
+
+            }
+        </script>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>MARQUEE TAG</title>
+    </head>
+    <body>
+        <marquee behavior="" direction="">This a marquee tag</marquee>
+        <marquee behavior="" direction=""><a href="https://www.youtube.com/">click to youtube</a></marquee>
+        <marquee bgcolor="yellow" behavior="" direction="">This a marquee tag</marquee>
+        <marquee behavior="alternate" bgcolor="yellow" direction="right">This a marquee tag</marquee>
+        <marquee behavior="scroll" direction="left"bgcolor="yellow">This a marquee tag</marquee>
+        <marquee behavior="slide" direction="up"bgcolor="yellow" height="50">This a marquee tag</marquee>
+        <marquee behavior="alternate" direction="down"bgcolor="yellow" height="50">This a marquee tag</marquee>
+    
+        <marquee scrollamount="10" behavior="scroll" direction="left"bgcolor="red">This a marquee tag</marquee>
+        <marquee scrollamount="20" behavior="slide" direction="up"bgcolor="red" height="100">This a marquee tag</marquee>
+        <marquee scrollamount="10" behavior="scroll" direction="left"bgcolor="red" id="test">This a marquee tag of abhishek</marquee>
+        <script>
+            document.getElementById("test").onmouseenter=function(){
+                document.getElementById("test").stop();
+            };
+            document.getElementById("test").onmouseleave=function(){
+                document.getElementById("test").start();
+            };
+        </script>
+        
+        
+    </body>
+</html>
